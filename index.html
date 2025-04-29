@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Behavioral Authentication</title>
+</head>
+<body>
+    <h1>🔐 Real-Time Behavioral Authentication 🔐</h1>
+    <form action="/predict" method="POST">
+        Typing Speed (WPM): <input type="text" name="typing_speed"><br><br>
+        Key Press Duration (ms): <input type="text" name="key_press_duration"><br><br>
+        Typing Rhythm Variance: <input type="text" name="typing_rhythm_variance"><br><br>
+        Mouse Movement Speed (px/sec): <input type="text" name="mouse_movement_speed"><br><br>
+        Mouse Click Interval (ms): <input type="text" name="mouse_click_interval"><br><br>
+        Swipe Pressure (0.0 - 1.0): <input type="text" name="swipe_pressure"><br><br>
+        <input type="submit" value="Authenticate">
+    </form>
+</body>
+</html>
